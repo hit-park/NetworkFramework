@@ -12,6 +12,7 @@
 		3EE5F9D03AEC8C57B8B98A79B5E067DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		67C5B4B72B067CEB21F71F57A5B567F0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFCAC19E2B44951B3BA63F26745AE23 /* ReplaceMe.swift */; };
 		85680795082E0487CB90256528C532E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A35D007A25C6FA6700C0680E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35D007925C6FA6700C0680E /* Network.swift */; };
 		B74FAC2A3529E25AA1A69321E6DF51C6 /* NetworkFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA02219274C538E3956D411D2227A276 /* NetworkFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F128643701690D1A05DC04905DF164EA /* Pods-NetworkFramework_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D6FBE0818437BF29852844B4564B90 /* Pods-NetworkFramework_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -30,24 +31,25 @@
 		21274BB5BCB3126A4F382839DD7BAC6F /* NetworkFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkFramework.debug.xcconfig; sourceTree = "<group>"; };
 		28B7024D9E54DBC7C36C3E101627D6E1 /* NetworkFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NetworkFramework.release.xcconfig; sourceTree = "<group>"; };
 		2BC31140E02A90328D45A03D823A037E /* Pods-NetworkFramework_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NetworkFramework_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C686F90C172E580CBD2EEA70A20D681 /* NetworkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NetworkFramework.framework; path = NetworkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37BB6BE82444FA3EC44CAA2ED3454964 /* Pods_NetworkFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NetworkFramework_Tests.framework; path = "Pods-NetworkFramework_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C686F90C172E580CBD2EEA70A20D681 /* NetworkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BB6BE82444FA3EC44CAA2ED3454964 /* Pods_NetworkFramework_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkFramework_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45684056A983499FFFE7B0B27B044D76 /* NetworkFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkFramework-prefix.pch"; sourceTree = "<group>"; };
 		473E76BB4B14958D81C0E224E228D370 /* Pods-NetworkFramework_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetworkFramework_Tests-umbrella.h"; sourceTree = "<group>"; };
-		480B3CF0BC9A29E99F66C7F676C7CA86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		480B3CF0BC9A29E99F66C7F676C7CA86 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B9E06D95653B9E1C1770DB293069DAC /* Pods-NetworkFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NetworkFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5EA576DDC6A5CBD2C55EEF9CC11D1373 /* NetworkFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NetworkFramework-dummy.m"; sourceTree = "<group>"; };
 		684E0025E364E0C589F91F00082AD03D /* NetworkFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NetworkFramework.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		771E8EB6CB6731B6171DC76BA5211E8A /* Pods-NetworkFramework_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkFramework_Tests-Info.plist"; sourceTree = "<group>"; };
 		7EFCAC19E2B44951B3BA63F26745AE23 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NetworkFramework/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E26331B348FC134BCDFBE0197EF7143 /* Pods-NetworkFramework_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkFramework_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A35D007925C6FA6700C0680E /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Network.swift; path = NetworkFramework/Classes/Network.swift; sourceTree = "<group>"; };
 		AA02219274C538E3956D411D2227A276 /* NetworkFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NetworkFramework-umbrella.h"; sourceTree = "<group>"; };
 		B3D6FBE0818437BF29852844B4564B90 /* Pods-NetworkFramework_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NetworkFramework_Tests-dummy.m"; sourceTree = "<group>"; };
-		B7ACA381E5ADB0D05E4FC4A02292B6F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B7ACA381E5ADB0D05E4FC4A02292B6F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C5072F85A42CA9B29DB3D1CF4279202C /* Pods-NetworkFramework_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkFramework_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C9B6AC5C1880FBACED9EE29407C919E2 /* NetworkFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NetworkFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9B6AC5C1880FBACED9EE29407C919E2 /* NetworkFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NetworkFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D6B4D918B537EDEF33534A01B60FA9AD /* NetworkFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NetworkFramework-Info.plist"; sourceTree = "<group>"; };
 		F8C70ACA7A78D58604329592A8D5629D /* Pods-NetworkFramework_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NetworkFramework_Tests.modulemap"; sourceTree = "<group>"; };
 		FEA9AEC8625B82B2EBCF960EF7B253E9 /* Pods-NetworkFramework_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkFramework_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		9D43436CD2C9909BBB5FB224BCF195BB /* NetworkFramework */ = {
 			isa = PBXGroup;
 			children = (
+				A35D007925C6FA6700C0680E /* Network.swift */,
 				7EFCAC19E2B44951B3BA63F26745AE23 /* ReplaceMe.swift */,
 				9C998E66BDB7B00D4463D227C0ACC402 /* Pod */,
 				B1B8E30B0188DAC81D5F4D69B2D0A7D3 /* Support Files */,
@@ -289,6 +292,7 @@
 			files = (
 				1914DB3243EAEED2E513138E1A3F6E0D /* NetworkFramework-dummy.m in Sources */,
 				67C5B4B72B067CEB21F71F57A5B567F0 /* ReplaceMe.swift in Sources */,
+				A35D007A25C6FA6700C0680E /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +371,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
