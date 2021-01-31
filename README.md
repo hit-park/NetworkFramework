@@ -22,7 +22,7 @@ pod 'NetworkFramework'
 
 ## Author
 
-pikaht@nate.com, heetae.park@yanolja.com
+pikaht@nate.com
 
 ## License
 
