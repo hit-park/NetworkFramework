@@ -1,0 +1,22 @@
+{
+  "name": "NetworkFramework",
+  "version": "0.1.0",
+  "summary": "A short description of NetworkFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pikaht@nate.com/NetworkFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pikaht@nate.com": "heetae.park@yanolja.com"
+  },
+  "source": {
+    "git": "https://github.com/pikaht@nate.com/NetworkFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "NetworkFramework/Classes/**/*"
+}

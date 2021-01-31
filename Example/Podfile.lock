@@ -1,0 +1,16 @@
+PODS:
+  - NetworkFramework (0.1.0)
+
+DEPENDENCIES:
+  - NetworkFramework (from `../`)
+
+EXTERNAL SOURCES:
+  NetworkFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NetworkFramework: ecca66c5e41f06fe39675e0d9c9f5e9c4fc41a7e
+
+PODFILE CHECKSUM: c787c4a45990132f76859633b15eaa6d90b013f3
+
+COCOAPODS: 1.10.1
